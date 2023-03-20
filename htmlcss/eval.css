@@ -1,0 +1,48 @@
+
+header {
+    background-color: #ffffff;
+    padding: 1em;
+}
+
+header .logo {
+    display: none;
+}
+
+header nav li {
+    list-style-type: none;
+    text-align: center;
+    margin: 1rem;
+}
+
+header nav a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+img[src*="icon"] {
+    width: 5rem;
+    border-radius: 50%;
+    border: 4px solid #000000;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+        }
+    
+    
+    header .logo {
+        display: block;
+    }
+
+    header ul {
+        display: flex;
+        
+    }
+}
+
